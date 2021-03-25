@@ -2,15 +2,16 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--space-medium);
 }
-.logo-div {
-display: grid;
 
+.logo-div {
+  display: grid;
+  height: 100%;
+  padding: var(--space-medium);
 }
 
 .logo {
-
+  max-width: 80%;
 }
 
 /* Tablets */

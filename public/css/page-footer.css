@@ -5,14 +5,11 @@ footer {
 .footer-link {
   color: var(--color-white);
   background-color: var(--color-brown);
-  padding: var(--space-small) var(--space-medium);
+  padding: var(--space-small) var(--space-small);
   border-radius: 5%;
 }
 
-footer a {
-  color: var(--color-brown);
-}
-
+/* Gap between social icon and link text*/
 .social-icon {
   margin-right: var(--space-small);
 }
@@ -21,6 +18,7 @@ footer a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  row-gap: var(--space-extra-big);
+  row-gap: var(--space-big);
+  column-gap: var(--space-medium-small);
   margin: var(--space-extra-big) 0;
 }
