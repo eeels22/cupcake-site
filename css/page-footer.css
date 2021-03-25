@@ -1,5 +1,8 @@
 .footer-link {
-  color: var(--color-brown);
+  color: var(--color-white);
+  background-color: var(--color-brown);
+  padding: var(--space-small) var(--space-medium);
+  border-radius: 5%;
 }
 
 footer a {
@@ -15,5 +18,5 @@ footer a {
   flex-flow: row wrap;
   justify-content: space-between;
   row-gap: var(--space-extra-big);
-  margin: var(--space-medium);
+  margin: var(--space-extra-big) 0;
 }
