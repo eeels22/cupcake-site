@@ -1,25 +1,29 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Spectral:wght@400;700&display=swap");
 
-
 /* HTML tags*/
 body {
   margin: 0, auto;
   max-width: 900px;
+  font-family: "Nunito", sans-serif;
+  font-size: var(--space-medium);
+  color: var(--color-brown);
+  margin: var(--space-small) 0;
 }
 
 h1 {
   font-family: "Spectral", serif;
-  font-size: var(--space-extra-big);
   color: var(--color-pink);
   font-weight: 700;
   margin: var(--space-small) 0;
+  font-size: var(--space-extra-big);
 }
 
-p {
-  font-family: "Nunito", sans-serif;
-  font-size: var(--space-medium);
+h2 {
+  font-size: var(--space-big);
+  font-family: "Spectral", serif;
   color: var(--color-brown);
+  font-weight: 700;
   margin: var(--space-small) 0;
 }
 

@@ -13,28 +13,211 @@
     ></script>
   </head>
   <body>
+    <!-- page header -->
+    <header>
+      <!-- navigation -->
+      <nav>
+        <a href="/public/index.html">Home</a>
+        <a href="/public/about.html">About</a>
+        <a href="/public/products.html">Products</a>
+        <a href="/public/contact.html">Contact</a>
+      </nav>
+      <!-- logo -->
+      <div class="logo-div">
+        <img
+          src="./images/logoMedium.png"
+          alt="logo containing an illustration of a green-iced cupcake topped with a pink heart and text reading Munammi cakery"
+          class="logo"
+        />
+      </div>
+    </header>
     <!-- main content -->
     <main>
-      <!-- hero image section-->
-      <section class="hero-image-section">
-        <img
-          src="./images/cakehero9000400.jpg"
-          alt="Close up of a cupcake with pink frosting and a white choclate covered strawberry."
-          class="hero-image"
-        />
-      </section>
       <!-- text section -->
-      <section class="not-hero">
-        <h1>Treat yourself</h1>
+      <section class="not-hero products-intro-section">
+        <h1>Our products</h1>
         <p>
-          At Munamii Cakery, every single cake and cupcake we make is special.
-          We not only do we want to deliver a dessert to your table, we want you
-          to have a unique experience - an unforgettable memory. With over eight
-          years of pastry expertise, you can trust us to hit the sweet spot
-          every purchase!
+          We’re here for you on your big special day and for special everyday
+          moments. Feast your eyes on our scrumptious cupcakes and showstopping
+          wedding cakes.
         </p>
-        <a href="/products.html">Browse our dreamy products</a>
+        <a href="#wedding-cake-section">Skip to wedding cakes</a>
       </section>
+      <section class="cupcakes-section not-hero">
+        <div class="cupcake-intro">
+          <h2 class="product-category">Cupcakes</h2>
+          <p>
+            Our cupcakes are a perfect treat for yourself or a special way to
+            let a loved one know you're thinking of them. With six cupcakes in
+            each order, you can spread the joy further. Yum!
+          </p>
+        </div>
+        <div class="cupcake-grid product-grid">
+          <article class="cupcake-item product-item">
+            <img
+              src="/public/images/cupcake/vanilla-sprinkles.jpg"
+              alt="Cupcakes with pink frosting, colourful sprinkles and a glacee cherry"
+              class="cupcake-image"
+            />
+            <span class="product-name">Vanilla sprinkles</span>
+            <span class="product-price">210 kr for 6</span>
+          </article>
+          <article class="cupcake-item product-item">
+            <img
+              src="/public/images/cupcake/blackforest.jpg"
+              alt="Chocolate cupcakes with light frosting, chocolate layer and real cherry on top"
+              class="cupcake-image"
+            />
+            <span class="product-name">Black forest</span>
+            <span class="product-price">220 kr for 6</span>
+          </article>
+          <article class="cupcake-item product-item">
+            <img
+              src="/public/images/cupcake/lemon-floral.jpg"
+              alt="Three cupcakes in gold cases topped with green frosting and real flowers"
+              class="cupcake-image"
+            />
+            <span class="product-name">Lemon floral</span>
+            <span class="product-price">250kr for 6</span>
+          </article>
+          <article class="cupcake-item product-item">
+            <img
+              src="/public/images/cupcake/strawberry-coffee.jpg"
+              alt="Two chocolate cupcakes topped with frosting and wild strawberries"
+              class="cupcake-image"
+            />
+            <span class="product-name">Wild strawberries</span>
+            <span class="product-price">240 kr for 6</span>
+          </article>
+          <article class="cupcake-item product-item">
+            <img
+              src="/public/images/cupcake/vanilla-rainbow.jpg"
+              alt="'Cupcakes with rainbow coloured frosting"
+              class="cupcake-image"
+            />
+            <span class="product-name">Pastel rainbow</span>
+            <span class="product-price">180 kr for 6</span>
+          </article>
+          <article class="cupcake-item product-item">
+            <img
+              src="/public/images/cupcake/walnut.jpg"
+              alt="'Cupcakes in silver foil cases with cream frosting, chocolate shavings and sprinkles."
+              class="cupcake-image"
+            />
+            <span class="product-name">Walnut cream</span>
+            <span class="product-price">200 kr for 6</span>
+          </article>
+          <article class="cupcake-item product-item">
+            <img
+              src="/public/images/cupcake/chocolate-fudge.jpg"
+              alt="A chocolate cupcake with chocolate frosting displayed on a log plate."
+              class="cupcake-image"
+            />
+            <span class="product-name">Dark chocolate fudge</span>
+            <span class="product-price">220 kr for 6</span>
+          </article>
+          <article class="cupcake-item product-item">
+            <img
+              src="/public/images/cupcake/strawberry-yogurt.jpg"
+              alt="Cupcakes with pink frosting and a white chocolate covered strawberry"
+              class="cupcake-image"
+            />
+            <span class="product-name">Dark chocolate fudge</span>
+            <span class="product-price">220 kr for 6</span>
+          </article>
+          <!-- end grid cupcake -->
+        </div>
+        <!-- end of cupcake section -->
+      </section>
+      <!-- start wedding cake section -->
+      <section class="wedding-cake-section" id="wedding-cake-section">
+        <!-- intro wedding cake -->
+        <div class="wedding-cake-intro">
+          <h2 class="product-category">Wedding cakes</h2>
+          <p>
+            On your special day, you can trust us to deliver a masterpiece to
+            wow your guest. Whatever your wedding theme, we have a creation to
+            suit.
+          </p>
+        </div>
+        <!-- grid wedding cake -->
+        <div class="wedding-cake-grid product-grid">
+          <article class="wedding-cake-item product-item">
+            <img
+              src="/public/images/wedding/wed-simple.jpg"
+              alt="Three-layer white iced wedding cake with rose bouquet on top"
+              class="cupcake-image"
+            />
+            <span class="product-name">Minimalist chic</span>
+            <span class="product-price">2.000 kr</span>
+          </article>
+          <article class="wedding-cake-item product-item">
+            <img
+              src="/public/images/wedding/wed-fruit.jpg"
+              alt="Two-layer wedding cake with light frosting, fresh figs and leaves"
+              class="cupcake-image"
+            />
+            <span class="product-name">Summer figs</span>
+            <span class="product-price">2100 kr</span>
+          </article>
+          <article class="wedding-cake-item product-item">
+            <img
+              src="/public/images/wedding/wed-ridges.jpg"
+              alt="Three-layer white wedding cake with red and white flowers"
+              class="cupcake-image"
+            />
+            <span class="product-name">Red and white</span>
+            <span class="product-price">2.150 kr</span>
+          </article>
+          <article class="wedding-cake-item product-item">
+            <img
+              src="/public/images/wedding/wed-classic.jpg"
+              alt="Four-layer white wedding cake with textured icing and fresh flowers"
+              class="cupcake-image"
+            />
+            <span class="product-name">Love you four-ever</span>
+            <span class="product-price">2.500 kr</span>
+          </article>
+          <article class="wedding-cake-item product-item">
+            <img
+              src="/public/images/wedding/wed-rose-peach.jpg"
+              alt="'Three-layer white wedding cake with light pink roses and gold decorative topper"
+              class="cupcake-image"
+            />
+            <span class="product-name">Sweetheart rose</span>
+            <span class="product-price">2.050 kr</span>
+          </article>
+          <article class="wedding-cake-item product-item">
+            <img
+              src="/public/images/wedding/wed-elegant.jpg"
+              alt="'Three-later white wedding cake with rose bouquet on middle layer."
+              class="cupcake-image"
+            />
+            <span class="product-name">Elegant souls</span>
+            <span class="product-price">2.100 kr</span>
+          </article>
+          <article class="wedding-cake-item product-item">
+            <img
+              src="/public/images/wedding/wed-bare.jpg"
+              alt="Chocolate layered wedding cake with bare sides and forest berries."
+              class="cupcake-image"
+            />
+            <span class="product-name"> Forest dream</span>
+            <span class="product-price">1.900 kr</span>
+          </article>
+          <article class="wedding-cake-item product-item">
+            <img
+              src="/public/images/wedding/wed-rustic.jpg"
+              alt="Two-layer wedding cake with thin frosting and yellow and white flowers"
+              class="cupcake-image"
+            />
+            <span class="product-name">Two together</span>
+            <span class="product-price">1.300 kr</span>
+          </article>
+        </div>
+        <!-- end of wedding cake grid -->
+      </section>
+      <!-- end of wedding cake section -->
     </main>
     <!-- page footer -->
     <footer></footer>
