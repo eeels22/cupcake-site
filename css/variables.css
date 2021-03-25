@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-sea-green: #24A38E;
+  --color-brown: #553914;
+  --color-pink: #C54496;
+  --color-cyan: #83D2DD;
+
+  /* Spacing */
+  --space-x-small: 4px;
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+  --space-extra-big: 32px;
+  --space-extra-extra-big: 40px;
+}
