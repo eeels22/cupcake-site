@@ -20,7 +20,7 @@ footer a {
 .grid-footer {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   row-gap: var(--space-extra-big);
   margin: var(--space-extra-big) 0;
 }
