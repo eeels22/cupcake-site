@@ -1,0 +1,7 @@
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: var(--space-medium);
+  row-gap: var(--space-extra-big);
+}

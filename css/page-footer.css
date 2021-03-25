@@ -1,0 +1,19 @@
+.footer-link {
+  color: var(--color-brown);
+}
+
+footer a {
+  color: var(--color-brown);
+}
+
+.social-icon {
+  margin-right: var(--space-extra-small);
+}
+
+.grid-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  row-gap: var(--space-extra-big);
+  margin: var(--space-medium);
+}
