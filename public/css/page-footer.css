@@ -1,12 +1,10 @@
 footer {
-  padding: var(--space-medium);
+  background-color: var(--color-sea-green);
 }
 
 .footer-link {
   color: var(--color-white);
-  background-color: var(--color-brown);
   padding: var(--space-small) var(--space-small);
-  border-radius: 5%;
 }
 
 /* Gap between social icon and link text*/
