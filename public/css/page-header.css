@@ -7,8 +7,14 @@ header {
 }
 
 /* Classes */
+.logo-div {
+  display: flex;
+  justify-content: center;
+}
 
-
+.logo {
+  margin: var(--space-small) 0 0 0;
+}
 
 /* Tablets */
 @media (min-width: 550px) {
