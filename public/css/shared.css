@@ -79,3 +79,7 @@ img {
   /* padding for sections that aren't the hero image */
   padding: 0 var(--space-medium);
 }
+
+.linked-logo {
+  margin: 0;
+}
