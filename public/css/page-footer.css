@@ -1,11 +1,14 @@
+/* Tags*/
+
 footer {
   background-color: var(--color-sea-green);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-
   margin-top: auto;
 }
+
+/* Classes */
 
 .footer-link {
   color: var(--color-white);
