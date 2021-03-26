@@ -3,11 +3,12 @@ nav {
   flex-flow: row wrap;
   justify-content: space-evenly;
   row-gap: var(--space-small);
+  background-color: var(--color-sea-green);
 }
 
 /* Navigation links */
 nav a {
-  color: var(--color-sea-green);
+  color: var(--color-white);
   padding: var(--space-small) var(--space-small);
   border-radius: 5%;
 }
