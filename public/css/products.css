@@ -6,7 +6,7 @@
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  margin-top: var(--space-extra-big);
+  margin-top: var(--space-big);
 }
 
 .product-item {
