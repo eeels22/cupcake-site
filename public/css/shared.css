@@ -2,11 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Spectral:wght@400;700&display=swap");
 
 /* Tags */
+
+html {
+  height: 100%;
+}
 body {
   /* centers the content*/
   margin: auto;
   /* recommended max width*/
   max-width: 960px;
+  min-height: 100%;
+  box-sizing: border-box;
   /* font */
   font-family: "Nunito", sans-serif;
   font-size: var(--space-medium);
@@ -14,6 +20,13 @@ body {
   /* grid */
   /*display: grid;
   grid-template-rows: auto 1fr auto; /* Why is  this making stuff show below the footer?*/
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-bottom: var(--space-extra-extra-big);
 }
 
 h1 {

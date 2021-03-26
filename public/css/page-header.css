@@ -1,18 +1,14 @@
+/* Tags */
+
 header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.logo-div {
-  display: grid;
-  height: 100%;
-  padding: var(--space-medium);
-}
+/* Classes */
 
-.logo {
-  max-width: 80%;
-}
+
 
 /* Tablets */
 @media (min-width: 550px) {
