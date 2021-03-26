@@ -1,18 +1,4 @@
-/* About page */
-
-#owner-image {
-  border-radius: 200px;
-  max-width: 100%;
-  margin: auto;
-}
-
-.about-details {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-/* Products page */
-
+/* Classes */
 .product-section {
   margin-top: var(--space-extra-extra-big);
 }
@@ -32,13 +18,4 @@
   font-weight: 700;
   margin-top: var(--space-small);
   color: var(--color-pink);
-}
-
-
-/* Contact page */
-
-.address {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }

@@ -1,0 +1,18 @@
+/* ID */
+#owner-image {
+  border-radius: 220px;
+  border: var(--color-pink) dotted var(--space-extra-small);
+  max-width: 100%;
+  margin: auto;
+}
+
+/* Desktops */
+@media (min-width: 750px) {
+  .about-owner {
+    display: flex;
+    flex-direction: row;
+    column-gap: var(--space-extra-big);
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}

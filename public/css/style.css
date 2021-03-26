@@ -1,9 +1,12 @@
 /* Globals */
 @import "./variables.css";
 @import "./shared.css";
-
-/* Specifics */
 @import "./nav.css";
 @import "./page-header.css";
-@import "./main-content.css";
 @import "./page-footer.css";
+
+/* Specifics */
+@import "./home.css";
+@import "./about.css";
+@import "./products.css";
+@import "./contact.css";
