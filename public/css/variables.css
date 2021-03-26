@@ -1,7 +1,7 @@
 :root {
   /* Colors */
   --color-white: #ffffff;
-  --color-sea-green: #24a38e;
+  --color-sea-green: #1C8271;
   --color-brown: #553914;
   --color-pink: #c54496;
   --color-cyan: #83d2dd;
@@ -13,6 +13,6 @@
   --space-medium-small: 12px;
   --space-medium: 16px;
   --space-big: 24px;
-  --space-extra-big: 32px;
+  --space-extra-big: 36px;
   --space-extra-extra-big: 40px;
 }
