@@ -33,3 +33,12 @@
   margin-top: var(--space-small);
   color: var(--color-pink);
 }
+
+
+/* Contact page */
+
+.address {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
