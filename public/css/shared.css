@@ -10,7 +10,7 @@ html {
 body {
   /* centers the content*/
   margin: auto;
-  /* recommended max width*/
+  /* recommended max width */
   max-width: 960px;
   min-height: 100%;
   box-sizing: border-box;
@@ -18,7 +18,7 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: var(--space-medium);
   color: var(--color-brown);
-  /* Flexbox*/
+  /* flexbox*/
   display: flex;
   flex-direction: column;
 }

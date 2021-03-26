@@ -1,5 +1,7 @@
-.address, .phone-email {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+/* Classes */
+.address,
+.phone-email {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

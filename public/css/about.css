@@ -1,5 +1,6 @@
+/* ID */
 #owner-image {
-  border-radius: 200px;
+  border-radius: 220px;
   border: var(--color-pink) dotted var(--space-extra-small);
   max-width: 100%;
   margin: auto;
