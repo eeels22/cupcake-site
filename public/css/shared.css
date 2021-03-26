@@ -6,6 +6,7 @@
 html {
   height: 100%;
 }
+
 body {
   /* centers the content*/
   margin: auto;
@@ -17,9 +18,7 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: var(--space-medium);
   color: var(--color-brown);
-  /* grid */
-  /*display: grid;
-  grid-template-rows: auto 1fr auto; /* Why is  this making stuff show below the footer?*/
+  /* Flexbox*/
   display: flex;
   flex-direction: column;
 }
@@ -77,6 +76,6 @@ img {
 }
 
 .not-hero {
-  /* padding for sections that aren't the hero image*/
+  /* padding for sections that aren't the hero image */
   padding: 0 var(--space-medium);
 }

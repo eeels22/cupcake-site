@@ -1,3 +1,4 @@
+/* Tags */ 
 nav {
   display: flex;
   flex-flow: row wrap;
@@ -6,7 +7,6 @@ nav {
   background-color: var(--color-sea-green);
 }
 
-/* Navigation links */
 nav a {
   color: var(--color-white);
   padding: var(--space-small) var(--space-small);
