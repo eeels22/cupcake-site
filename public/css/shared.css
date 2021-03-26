@@ -1,28 +1,34 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Spectral:wght@400;700&display=swap");
 
-/* HTML tags*/
+/* Tags */
 body {
+  /* centers the content*/
   margin: auto;
+  /* recommended max width*/
   max-width: 960px;
+  /* font */
   font-family: "Nunito", sans-serif;
   font-size: var(--space-medium);
   color: var(--color-brown);
+  /* grid */
+  /*display: grid;
+  grid-template-rows: auto 1fr auto; /* Why is  this making stuff show below the footer?*/
 }
 
 h1 {
   font-family: "Spectral", serif;
-  color: var(--color-pink);
-  font-weight: 700;
-  margin: var(--space-small) 0;
   font-size: var(--space-extra-big);
+  font-weight: 700;
+  color: var(--color-pink);
+  margin: var(--space-small) 0;
 }
 
 h2 {
-  font-size: var(--space-big);
   font-family: "Spectral", serif;
-  color: var(--color-brown);
+  font-size: var(--space-big);
   font-weight: 700;
+  color: var(--color-brown);
   margin: var(--space-small) 0;
 }
 
@@ -33,7 +39,13 @@ a {
   text-decoration: underline;
   margin: var(--space-small) 0;
 }
-fbvfd img {
+
+a:hover {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+img {
   margin: var(--space-medium) 0;
 }
 
@@ -45,12 +57,12 @@ fbvfd img {
 }
 
 .hero-image {
+  /* no padding for hero image */
   max-width: 100%;
   max-height: 100vh;
 }
 
 .not-hero {
+  /* padding for sections that aren't the hero image*/
   padding: 0 var(--space-medium);
 }
-
-/* IDs */
